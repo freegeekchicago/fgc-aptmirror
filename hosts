@@ -1,0 +1,17 @@
+127.0.0.1	localhost
+127.0.1.1	fgc-mirror
+91.189.91.23	us.archive.ubuntu.com
+91.189.91.26	us.archive.ubuntu.com
+91.189.88.31    archive.ubuntu.com
+91.189.88.174   archive.ubuntu.com
+91.189.88.149   archive.ubuntu.com
+91.189.88.173   archive.ubuntu.com
+91.189.88.162   archive.ubuntu.com
+91.189.88.24    archive.ubuntu.com
+208.77.20.11    packages.linuxmint.com
+68.235.39.11    packages.linuxmint.com
+
+# The following lines are desirable for IPv6 capable hosts
+::1     localhost ip6-localhost ip6-loopback
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
