@@ -17,4 +17,5 @@ su -c apt-mirror apt-mirror
 
 # Set up the redirects.
 ln -s /var/www/html /var/spool/apt-mirror/mirror/packages.linuxmint.com/
-ln -s /var/www/html/ubuntu /var/spool/apt-mirror/mirror/us.archive.ubuntu.com/ubuntu/
+cd /var/www/html
+ln -s ubuntu/ /var/spool/apt-mirror/mirror/us.archive.ubuntu.com/ubuntu/
