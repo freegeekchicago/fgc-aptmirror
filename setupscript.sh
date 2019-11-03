@@ -9,6 +9,7 @@ sudo cp hosts /etc/hosts
 sudo cp sources.list /etc/apt/sources.list
 # Change mirror.list
 sudo cp mirror.list /etc/apt/mirror.list
+# set the password for the apt-mirror user.
 # run the apt-mirror script.
 su -c apt-mirror apt-mirror
 # run the apt-mirror cleanup script.
